@@ -14,7 +14,7 @@ def clean_data(
     Annotated[pd.Series, "y_train"],
     Annotated[pd.Series, "y_test"],
 ]:
-    """Data cleaning class which preprocesses the data and divides it into train and test data.
+    """Data cleaning which preprocesses the data and divides it into train and test data.
 
     Args:
         data: pd.DataFrame
